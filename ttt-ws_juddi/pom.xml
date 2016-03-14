@@ -12,7 +12,12 @@
     <name>${project.artifactId}</name>
 
     <dependencies>
-        <!-- UDDI Naming ... -->
+    <!-- UDDI Naming -->        
+       <dependency> 
+            <groupId>pt.ulisboa.tecnico.sdis</groupId>        
+            <artifactId>uddi-naming</artifactId>      
+            <version>1.0</version>        
+        </dependency>
     </dependencies>
 
     <properties>
@@ -25,8 +30,8 @@
         <mainclass>ttt.TTTMain</mainclass>
 
         <uddi.url>http://localhost:9090</uddi.url>
-        <ws.name>...</ws.name>
-        <ws.url>http://localhost:8080/...</ws.url>
+        <ws.name>TTT</ws.name>
+        <ws.url>http://localhost:8080/ttt-ws/endpoint</ws.url>
     </properties>
 
     <build>

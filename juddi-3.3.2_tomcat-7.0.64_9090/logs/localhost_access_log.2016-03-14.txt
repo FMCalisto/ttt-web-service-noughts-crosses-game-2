@@ -89,3 +89,6 @@
 0:0:0:0:0:0:0:1 - uddiadmin [14/Mar/2016:16:22:05 +0000] "GET /juddiv3/admin/img/logo2.png HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - uddiadmin [14/Mar/2016:16:22:05 +0000] "GET /juddiv3/admin/js/i18n.js.jsp HTTP/1.1" 500 3626
 0:0:0:0:0:0:0:1 - uddiadmin [14/Mar/2016:16:22:06 +0000] "GET /juddiv3/admin/favicon.ico HTTP/1.1" 200 766
+127.0.0.1 - - [14/Mar/2016:17:23:35 +0000] "POST /juddiv3/services/inquiry HTTP/1.1" 200 677
+127.0.0.1 - - [14/Mar/2016:17:23:36 +0000] "POST /juddiv3/services/security HTTP/1.1" 200 581
+127.0.0.1 - - [14/Mar/2016:17:23:36 +0000] "POST /juddiv3/services/publish HTTP/1.1" 200 1250

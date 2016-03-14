@@ -2,7 +2,7 @@ package ttt;
 
 import javax.jws.WebService;
 
-@WebService(endpointInterface = "...")
+@WebService(endpointInterface = "ttt.TTT")
 public class TTTImpl implements TTT {
 
 	private char board[][] = {

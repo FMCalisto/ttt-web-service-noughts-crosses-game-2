@@ -270,3 +270,13 @@
 2016-03-14 15:41:52,272 INFO [org.apache.juddi.subscription.SubscriptionNotifier] - Notification background task took 2 milliseconds.
 2016-03-14 16:22:04,355 INFO [org.apache.juddi.v3.client.config.UDDIClient] - jUDDI Client version - 3.3.2
 2016-03-14 16:22:04,500 INFO [org.apache.juddi.v3.client.config.ClientConfig] - Reading UDDI Client properties file file:///Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3/WEB-INF/classes/META-INF/uddi.xml use -Duddi.client.xml to override
+2016-03-14 17:23:35,482 INFO [org.apache.juddi.api.impl.AuthenticatedService] - FindBusiness with tModel bag filtering is enabled: true loaded from file:/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2016-03-14 17:23:35,505 INFO [org.apache.juddi.api.impl.InquiryHelper] - FindBusiness by tModelBag is enabled! Loaded from file:/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2016-03-14 17:23:36,316 INFO [org.apache.juddi.api.impl.AuthenticatedService] - AUDIT: AuthToken request for username from 127.0.0.1
+2016-03-14 17:23:36,316 WARN [org.apache.juddi.v3.auth.JUDDIAuthenticator] - DO NOT USE JUDDI AUTHENTICATOR FOR PRODUCTION SYSTEMS - DOES NOT VALIDATE PASSWORDS, AT ALL!
+2016-03-14 17:23:36,345 INFO [org.apache.juddi.api.impl.AuthenticatedService] - AUDIT: AuthToken issued for username from 127.0.0.1
+2016-03-14 17:23:36,813 WARN [org.apache.juddi.validation.ValidatePublish] - Hey, you should consider encrypting your trust store password!
+2016-03-14 17:23:37,246 INFO [org.apache.juddi.replication.ReplicationNotifier] - Replication, Notifying nodes of new change records. 1 queued
+2016-03-14 17:23:37,248 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:149 Type:ChangeRecordNewData Key:uddi:juddi.apache.org:b69df99e-b402-4e48-a5cf-39d869f7919f Local id:149
+2016-03-14 17:23:37,270 INFO [org.apache.juddi.subscription.SubscriptionNotifier] - Start Notification background task; checking if subscription notifications need to be send out..
+2016-03-14 17:23:37,272 INFO [org.apache.juddi.subscription.SubscriptionNotifier] - Notification background task took 2 milliseconds.

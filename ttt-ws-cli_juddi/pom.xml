@@ -12,7 +12,12 @@
     <name>${project.artifactId}</name>
 
     <dependencies>
-        <!-- UDDI Naming ... -->
+        <!-- UDDI Naming -->        
+-        <dependency>      
+-            <groupId>pt.ulisboa.tecnico.sdis</groupId>        
+-            <artifactId>uddi-naming</artifactId>      
+-            <version>1.0</version>        
+-        </dependency>
     </dependencies>
 
     <properties>
@@ -23,13 +28,13 @@
         <maven.compiler.target>1.8</maven.compiler.target>
 
         <!-- WSDL is required for client code generation -->
-        <ws.url>http://localhost:8080/...</ws.url>
+        <ws.url>http://localhost:8080/ttt-ws/endpoint</ws.url>
         <wsdl.url>${ws.url}?WSDL</wsdl.url>
 
         <mainclass>ttt.cli.Game</mainclass>
 
         <uddi.url>http://localhost:9090</uddi.url>
-        <ws.name>...</ws.name>
+        <ws.name>TTT</ws.name>
     </properties>
 
     <build>
