@@ -12,3 +12,49 @@ Mar 14, 2016 3:04:15 PM org.apache.catalina.core.ApplicationContext log
 INFO: No Spring WebApplicationInitializer types detected on classpath
 Mar 14, 2016 3:04:15 PM org.apache.catalina.core.ApplicationContext log
 INFO: Initializing Spring root WebApplicationContext
+Mar 14, 2016 4:22:05 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/juddiv3] threw exception [An exception occurred processing JSP page /admin/js/i18n.js.jsp at line 27
+
+24: 
+25: <%@page contentType="application/javascript" pageEncoding="UTF-8"%>
+26: //<script type="text/javascript">
+27:     var i18n_clicktoedit="<%=org.apache.commons.lang.StringEscapeUtils.escapeJavaScript(ResourceLoader.GetResource(session, "items.clicktoedit"))%>";
+28:     var i18n_loading="<%=org.apache.commons.lang.StringEscapeUtils.escapeJavaScript(ResourceLoader.GetResource(session, "items.loading"))%>";
+29:     var i18n_login="<%=org.apache.commons.lang.StringEscapeUtils.escapeJavaScript(ResourceLoader.GetResource(session, "navbar.login.button"))%>";
+30:     var il8n_picker="<%= org.apache.commons.lang.StringEscapeUtils.escapeJavaScript(ResourceLoader.GetResource(session, "items.picker"))%>";
+
+
+Stacktrace:] with root cause
+java.lang.NullPointerException
+	at java.util.Locale.<init>(Locale.java:648)
+	at java.util.Locale.<init>(Locale.java:701)
+	at org.apache.juddi.adminconsole.resources.ResourceLoader.GetResource(ResourceLoader.java:73)
+	at org.apache.juddi.adminconsole.resources.ResourceLoader.GetResource(ResourceLoader.java:52)
+	at org.apache.jsp.admin.js.i18n_js_jsp._jspService(i18n_js_jsp.java:70)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+

@@ -258,3 +258,15 @@
 2016-03-14 15:29:12,253 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:147 Type:ChangeRecordDelete Key:uddi:juddi.apache.org:d7a54599-f550-4998-baec-5c20cb0e4369 Local id:147
 2016-03-14 15:29:12,276 INFO [org.apache.juddi.subscription.SubscriptionNotifier] - Start Notification background task; checking if subscription notifications need to be send out..
 2016-03-14 15:29:12,282 INFO [org.apache.juddi.subscription.SubscriptionNotifier] - Notification background task took 7 milliseconds.
+2016-03-14 15:41:48,428 INFO [org.apache.juddi.api.impl.AuthenticatedService] - FindBusiness with tModel bag filtering is enabled: true loaded from file:/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2016-03-14 15:41:48,443 INFO [org.apache.juddi.api.impl.InquiryHelper] - FindBusiness by tModelBag is enabled! Loaded from file:/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2016-03-14 15:41:49,044 INFO [org.apache.juddi.api.impl.AuthenticatedService] - AUDIT: AuthToken request for username from 127.0.0.1
+2016-03-14 15:41:49,045 WARN [org.apache.juddi.v3.auth.JUDDIAuthenticator] - DO NOT USE JUDDI AUTHENTICATOR FOR PRODUCTION SYSTEMS - DOES NOT VALIDATE PASSWORDS, AT ALL!
+2016-03-14 15:41:49,070 INFO [org.apache.juddi.api.impl.AuthenticatedService] - AUDIT: AuthToken issued for username from 127.0.0.1
+2016-03-14 15:41:49,574 WARN [org.apache.juddi.validation.ValidatePublish] - Hey, you should consider encrypting your trust store password!
+2016-03-14 15:41:52,251 INFO [org.apache.juddi.replication.ReplicationNotifier] - Replication, Notifying nodes of new change records. 1 queued
+2016-03-14 15:41:52,253 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:148 Type:ChangeRecordNewData Key:uddi:juddi.apache.org:1509e037-661d-4e96-8ea5-0a1497d04c05 Local id:148
+2016-03-14 15:41:52,270 INFO [org.apache.juddi.subscription.SubscriptionNotifier] - Start Notification background task; checking if subscription notifications need to be send out..
+2016-03-14 15:41:52,272 INFO [org.apache.juddi.subscription.SubscriptionNotifier] - Notification background task took 2 milliseconds.
+2016-03-14 16:22:04,355 INFO [org.apache.juddi.v3.client.config.UDDIClient] - jUDDI Client version - 3.3.2
+2016-03-14 16:22:04,500 INFO [org.apache.juddi.v3.client.config.ClientConfig] - Reading UDDI Client properties file file:///Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3/WEB-INF/classes/META-INF/uddi.xml use -Duddi.client.xml to override

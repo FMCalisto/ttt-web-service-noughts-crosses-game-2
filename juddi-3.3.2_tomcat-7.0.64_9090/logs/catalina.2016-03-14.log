@@ -208,3 +208,6 @@ Mar 14, 2016 3:04:26 PM org.apache.coyote.AbstractProtocol start
 INFO: Starting ProtocolHandler ["ajp-bio-8009"]
 Mar 14, 2016 3:04:26 PM org.apache.catalina.startup.Catalina start
 INFO: Server startup in 46149 ms
+Mar 14, 2016 3:56:27 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
