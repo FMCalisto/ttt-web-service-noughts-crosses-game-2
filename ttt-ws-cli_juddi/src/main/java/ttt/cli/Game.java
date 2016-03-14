@@ -35,7 +35,8 @@ public class Game {
 		}
 
 		System.out.println("Creating stub ...");
-		// ...
+		TTTImplService service = new TTTImplService();
+		TTT port = service.getTTTImplPort();
 
 		System.out.println("Setting endpoint address ...");
 		BindingProvider bindingProvider = (BindingProvider) port;
