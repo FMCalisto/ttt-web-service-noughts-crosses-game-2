@@ -44,3 +44,15 @@
 127.0.0.1 - - [14/Mar/2016:15:09:21 +0000] "POST /juddiv3/services/publish HTTP/1.1" 200 1296
 127.0.0.1 - - [14/Mar/2016:15:09:22 +0000] "POST /juddiv3/services/inquiry HTTP/1.1" 200 1153
 127.0.0.1 - - [14/Mar/2016:15:09:22 +0000] "POST /juddiv3/services/inquiry HTTP/1.1" 200 1441
+127.0.0.1 - - [14/Mar/2016:15:25:08 +0000] "POST /juddiv3/services/inquiry HTTP/1.1" 200 677
+127.0.0.1 - - [14/Mar/2016:15:25:09 +0000] "POST /juddiv3/services/security HTTP/1.1" 200 581
+127.0.0.1 - - [14/Mar/2016:15:25:09 +0000] "POST /juddiv3/services/publish HTTP/1.1" 200 1260
+127.0.0.1 - - [14/Mar/2016:15:25:18 +0000] "POST /juddiv3/services/inquiry HTTP/1.1" 200 1131
+127.0.0.1 - - [14/Mar/2016:15:25:19 +0000] "POST /juddiv3/services/inquiry HTTP/1.1" 200 1405
+127.0.0.1 - - [14/Mar/2016:15:25:19 +0000] "POST /juddiv3/services/publish HTTP/1.1" 200 503
+127.0.0.1 - - [14/Mar/2016:15:25:20 +0000] "POST /juddiv3/services/publish HTTP/1.1" 200 503
+127.0.0.1 - - [14/Mar/2016:15:25:20 +0000] "POST /juddiv3/services/publish HTTP/1.1" 200 503
+127.0.0.1 - - [14/Mar/2016:15:25:20 +0000] "POST /juddiv3/services/publish HTTP/1.1" 200 98
+127.0.0.1 - - [14/Mar/2016:15:26:14 +0000] "POST /juddiv3/services/inquiry HTTP/1.1" 200 677
+127.0.0.1 - - [14/Mar/2016:15:26:15 +0000] "POST /juddiv3/services/security HTTP/1.1" 200 581
+127.0.0.1 - - [14/Mar/2016:15:26:15 +0000] "POST /juddiv3/services/publish HTTP/1.1" 200 1260
