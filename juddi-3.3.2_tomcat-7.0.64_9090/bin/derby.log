@@ -1,0 +1,6 @@
+----------------------------------------------------------------
+2016-03-14 15:03:54.929 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.4.2.0 - (689064): instance a816c00e-0153-75a7-a5b1-000035c67be8
+on database directory /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/bin/target/juddi-derby-test-db  
+
+Database Class Loader started - derby.database.classpath=''

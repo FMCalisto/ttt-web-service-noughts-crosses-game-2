@@ -1,0 +1,212 @@
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=256M; support was removed in 8.0
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.64
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 19 2015 17:18:06 UTC
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.64.0
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.11.3
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_31-b13
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/conf/logging.properties
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1024m
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx1024m
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256M
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.trustStore=truststore.jks
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.trustStorePassword=password
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.keyStore=../conf/keystore.jks
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.keyStorePassword=password
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/endorsed
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090
+Mar 14, 2016 3:03:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/temp
+Mar 14, 2016 3:03:39 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/Francisco/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Mar 14, 2016 3:03:40 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9090"]
+Mar 14, 2016 3:03:40 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Mar 14, 2016 3:03:40 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 14, 2016 3:03:40 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1446 ms
+Mar 14, 2016 3:03:40 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 14, 2016 3:03:40 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.64
+Mar 14, 2016 3:03:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/docs
+Mar 14, 2016 3:03:42 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 14, 2016 3:03:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/docs has finished in 1,621 ms
+Mar 14, 2016 3:03:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/examples
+Mar 14, 2016 3:03:43 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 14, 2016 3:03:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/examples has finished in 1,418 ms
+Mar 14, 2016 3:03:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/host-manager
+Mar 14, 2016 3:03:44 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 14, 2016 3:03:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/host-manager has finished in 1,065 ms
+Mar 14, 2016 3:03:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddi-gui
+Mar 14, 2016 3:03:47 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 14, 2016 3:03:47 PM org.apache.juddi.webconsole.StartupServlet contextInitialized
+INFO: juddi-gui startup
+Mar 14, 2016 3:03:47 PM org.apache.juddi.webconsole.StartupServlet contextInitialized
+INFO: Attempting to generate 256 bit AES key
+Mar 14, 2016 3:03:47 PM org.apache.juddi.webconsole.StartupServlet contextInitialized
+WARNING: 256 bit key validation failed. To use higher key sizes, try installing the Java Cryptographic Extensions (JCE) Unlimited Strength
+Mar 14, 2016 3:03:47 PM org.apache.juddi.webconsole.StartupServlet contextInitialized
+INFO: Attempting to generate 128 bit AES key
+Mar 14, 2016 3:03:47 PM org.apache.juddi.webconsole.StartupServlet contextInitialized
+INFO: Generation of 128 bit AES key successful
+Mar 14, 2016 3:03:47 PM org.apache.juddi.webconsole.StartupServlet contextInitialized
+INFO: Storing key to /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddi-gui/META-INF/config.properties
+Mar 14, 2016 3:03:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddi-gui has finished in 3,183 ms
+Mar 14, 2016 3:03:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3
+Mar 14, 2016 3:03:51 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 14, 2016 3:04:01 PM org.apache.cxf.bus.spring.OldSpringSupport logWarning
+WARNING: Import of META-INF/cxf/cxf-extension-soap.xml has been deprecated and is unnecessary.
+Mar 14, 2016 3:04:04 PM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDIInquiryService from class org.uddi.v3_service.UDDIInquiryPortType
+Mar 14, 2016 3:04:06 PM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /inquiry
+Mar 14, 2016 3:04:06 PM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDIPublicationService from class org.uddi.v3_service.UDDIPublicationPortType
+Mar 14, 2016 3:04:06 PM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /publish
+Mar 14, 2016 3:04:06 PM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDISecurityService from class org.uddi.v3_service.UDDISecurityPortType
+Mar 14, 2016 3:04:07 PM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /security
+Mar 14, 2016 3:04:07 PM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDISubscriptionService from class org.uddi.v3_service.UDDISubscriptionPortType
+Mar 14, 2016 3:04:07 PM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /subscription
+Mar 14, 2016 3:04:07 PM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDISubscriptionListenerService from class org.uddi.v3_service.UDDISubscriptionListenerPortType
+Mar 14, 2016 3:04:08 PM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /subscription-listener
+Mar 14, 2016 3:04:08 PM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:v3_service}UDDICustodyTransferService from class org.uddi.v3_service.UDDICustodyTransferPortType
+Mar 14, 2016 3:04:08 PM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /custody-transfer
+Mar 14, 2016 3:04:08 PM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {http://impl.api.juddi.apache.org/}UDDIValueSetValidationImplService from class org.uddi.v3_service.UDDIValueSetValidationPortType
+Mar 14, 2016 3:04:09 PM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /valueset-validation
+Mar 14, 2016 3:04:09 PM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {http://impl.api.juddi.apache.org/}UDDIValueSetCachingImplService from class org.uddi.v3_service.UDDIValueSetCachingPortType
+Mar 14, 2016 3:04:09 PM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /valueset-caching
+Mar 14, 2016 3:04:09 PM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:inquiry_v2}Inquire from class org.uddi.v2_service.Inquire
+Mar 14, 2016 3:04:09 PM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /inquiryv2
+Mar 14, 2016 3:04:09 PM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:publication_v2}Publish from class org.uddi.v2_service.Publish
+Mar 14, 2016 3:04:10 PM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /publishv2
+Mar 14, 2016 3:04:10 PM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromWSDL
+INFO: Creating Service {urn:juddi-apache-org:v3_service}JUDDIApiService from WSDL: classpath:/juddi_api_v1.wsdl
+Mar 14, 2016 3:04:11 PM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /juddi-api
+Mar 14, 2016 3:04:12 PM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /inquiryRest
+Mar 14, 2016 3:04:12 PM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: juddi-admin gui startup
+Mar 14, 2016 3:04:12 PM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: Attempting to generate 256 bit AES key
+Mar 14, 2016 3:04:12 PM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+WARNING: 256 bit key validation failed. To use higher key sizes, try installing the Java Cryptographic Extensions (JCE) Unlimited Strength
+Mar 14, 2016 3:04:12 PM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: Attempting to generate 128 bit AES key
+Mar 14, 2016 3:04:12 PM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: Generation of 128 bit AES key successful
+Mar 14, 2016 3:04:12 PM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: Storing key to /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3/WEB-INF/config.properties
+Mar 14, 2016 3:04:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3 has finished in 24,294 ms
+Mar 14, 2016 3:04:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3replication
+Mar 14, 2016 3:04:15 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 14, 2016 3:04:22 PM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDI_Replication_PortType from class org.uddi.v3_service.UDDIReplicationPortType
+Mar 14, 2016 3:04:23 PM org.apache.cxf.bus.spring.OldSpringSupport logWarning
+WARNING: Import of META-INF/cxf/cxf-extension-soap.xml has been deprecated and is unnecessary.
+Mar 14, 2016 3:04:24 PM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /replication
+Mar 14, 2016 3:04:24 PM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: juddi-admin gui startup
+Mar 14, 2016 3:04:24 PM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: Attempting to generate 256 bit AES key
+Mar 14, 2016 3:04:24 PM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+WARNING: 256 bit key validation failed. To use higher key sizes, try installing the Java Cryptographic Extensions (JCE) Unlimited Strength
+Mar 14, 2016 3:04:24 PM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: Attempting to generate 128 bit AES key
+Mar 14, 2016 3:04:24 PM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: Generation of 128 bit AES key successful
+Mar 14, 2016 3:04:24 PM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: Storing key to /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3replication/WEB-INF/config.properties
+Mar 14, 2016 3:04:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3replication has finished in 13,588 ms
+Mar 14, 2016 3:04:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/manager
+Mar 14, 2016 3:04:26 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 14, 2016 3:04:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/manager has finished in 403 ms
+Mar 14, 2016 3:04:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/ROOT
+Mar 14, 2016 3:04:26 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 14, 2016 3:04:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/ROOT has finished in 459 ms
+Mar 14, 2016 3:04:26 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9090"]
+Mar 14, 2016 3:04:26 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Mar 14, 2016 3:04:26 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 14, 2016 3:04:26 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 46149 ms
