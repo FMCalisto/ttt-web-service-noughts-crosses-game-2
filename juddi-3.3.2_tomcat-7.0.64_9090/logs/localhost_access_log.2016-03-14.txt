@@ -30,3 +30,17 @@
 0:0:0:0:0:0:0:1 - uddiadmin [14/Mar/2016:15:05:21 +0000] "GET /juddiv3/admin/img/logo2.png HTTP/1.1" 200 5721
 0:0:0:0:0:0:0:1 - uddiadmin [14/Mar/2016:15:05:21 +0000] "GET /juddiv3/admin/js/i18n.js.jsp HTTP/1.1" 200 2997
 0:0:0:0:0:0:0:1 - uddiadmin [14/Mar/2016:15:05:21 +0000] "GET /juddiv3/admin/font/fontawesome-webfont.woff?v=3.0.1 HTTP/1.1" 200 29380
+127.0.0.1 - - [14/Mar/2016:15:09:15 +0000] "POST /juddiv3/services/inquiry HTTP/1.1" 200 677
+127.0.0.1 - - [14/Mar/2016:15:09:15 +0000] "POST /juddiv3/services/security HTTP/1.1" 200 581
+127.0.0.1 - - [14/Mar/2016:15:09:16 +0000] "POST /juddiv3/services/publish HTTP/1.1" 200 1296
+127.0.0.1 - - [14/Mar/2016:15:09:17 +0000] "POST /juddiv3/services/inquiry HTTP/1.1" 200 1153
+127.0.0.1 - - [14/Mar/2016:15:09:18 +0000] "POST /juddiv3/services/inquiry HTTP/1.1" 200 1441
+127.0.0.1 - - [14/Mar/2016:15:09:18 +0000] "POST /juddiv3/services/inquiry HTTP/1.1" 200 1153
+127.0.0.1 - - [14/Mar/2016:15:09:19 +0000] "POST /juddiv3/services/inquiry HTTP/1.1" 200 1441
+127.0.0.1 - - [14/Mar/2016:15:09:19 +0000] "POST /juddiv3/services/publish HTTP/1.1" 200 503
+127.0.0.1 - - [14/Mar/2016:15:09:20 +0000] "POST /juddiv3/services/publish HTTP/1.1" 200 503
+127.0.0.1 - - [14/Mar/2016:15:09:20 +0000] "POST /juddiv3/services/publish HTTP/1.1" 200 503
+127.0.0.1 - - [14/Mar/2016:15:09:21 +0000] "POST /juddiv3/services/publish HTTP/1.1" 200 98
+127.0.0.1 - - [14/Mar/2016:15:09:21 +0000] "POST /juddiv3/services/publish HTTP/1.1" 200 1296
+127.0.0.1 - - [14/Mar/2016:15:09:22 +0000] "POST /juddiv3/services/inquiry HTTP/1.1" 200 1153
+127.0.0.1 - - [14/Mar/2016:15:09:22 +0000] "POST /juddiv3/services/inquiry HTTP/1.1" 200 1441

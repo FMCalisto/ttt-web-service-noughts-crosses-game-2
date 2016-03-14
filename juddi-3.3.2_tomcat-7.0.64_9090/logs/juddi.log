@@ -203,3 +203,26 @@
 2016-03-14 15:04:25,858 INFO [org.apache.juddi.Registry] - jUDDI registry started successfully.
 2016-03-14 15:05:20,985 INFO [org.apache.juddi.v3.client.config.UDDIClient] - jUDDI Client version - 3.3.2
 2016-03-14 15:05:21,000 INFO [org.apache.juddi.v3.client.config.ClientConfig] - Reading UDDI Client properties file file:///Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3/WEB-INF/classes/META-INF/uddi.xml use -Duddi.client.xml to override
+2016-03-14 15:09:14,809 INFO [org.apache.juddi.api.impl.AuthenticatedService] - FindBusiness with tModel bag filtering is enabled: true loaded from file:/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2016-03-14 15:09:15,021 INFO [org.apache.juddi.api.impl.InquiryHelper] - FindBusiness by tModelBag is enabled! Loaded from file:/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2016-03-14 15:09:15,931 INFO [org.apache.juddi.api.impl.AuthenticatedService] - AUDIT: AuthToken request for username from 127.0.0.1
+2016-03-14 15:09:15,935 WARN [org.apache.juddi.v3.auth.JUDDIAuthenticator] - DO NOT USE JUDDI AUTHENTICATOR FOR PRODUCTION SYSTEMS - DOES NOT VALIDATE PASSWORDS, AT ALL!
+2016-03-14 15:09:15,939 WARN [org.apache.juddi.v3.auth.JUDDIAuthenticator] - Publisher "username" was not found, adding the publisher in on the fly.
+2016-03-14 15:09:15,982 INFO [org.apache.juddi.api.impl.AuthenticatedService] - AUDIT: AuthToken issued for username from 127.0.0.1
+2016-03-14 15:09:16,768 WARN [org.apache.juddi.validation.ValidatePublish] - Hey, you should consider encrypting your trust store password!
+2016-03-14 15:09:17,246 INFO [org.apache.juddi.replication.ReplicationNotifier] - Replication, Notifying nodes of new change records. 1 queued
+2016-03-14 15:09:17,247 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:141 Type:ChangeRecordNewData Key:uddi:juddi.apache.org:f7fb9aec-e6f3-47e0-970f-417c282faa16 Local id:141
+2016-03-14 15:09:17,273 INFO [org.apache.juddi.subscription.SubscriptionNotifier] - Start Notification background task; checking if subscription notifications need to be send out..
+2016-03-14 15:09:17,293 INFO [org.apache.juddi.subscription.SubscriptionNotifier] - Notification background task took 20 milliseconds.
+2016-03-14 15:09:17,459 INFO [org.apache.juddi.api.impl.AuthenticatedService] - FindBusiness with tModel bag filtering is enabled: true loaded from file:/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2016-03-14 15:09:17,578 INFO [org.apache.juddi.api.impl.InquiryHelper] - FindBusiness by tModelBag is enabled! Loaded from file:/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2016-03-14 15:09:18,648 INFO [org.apache.juddi.api.impl.AuthenticatedService] - FindBusiness with tModel bag filtering is enabled: true loaded from file:/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2016-03-14 15:09:18,653 INFO [org.apache.juddi.api.impl.InquiryHelper] - FindBusiness by tModelBag is enabled! Loaded from file:/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2016-03-14 15:09:21,869 WARN [org.apache.juddi.validation.ValidatePublish] - Hey, you should consider encrypting your trust store password!
+2016-03-14 15:09:22,250 INFO [org.apache.juddi.replication.ReplicationNotifier] - Replication, Notifying nodes of new change records. 2 queued
+2016-03-14 15:09:22,251 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:142 Type:ChangeRecordDelete Key:uddi:juddi.apache.org:f7fb9aec-e6f3-47e0-970f-417c282faa16 Local id:142
+2016-03-14 15:09:22,273 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:143 Type:ChangeRecordNewData Key:uddi:juddi.apache.org:f0136ce9-0ee9-440a-ae2b-e23b0d769364 Local id:143
+2016-03-14 15:09:22,273 INFO [org.apache.juddi.subscription.SubscriptionNotifier] - Start Notification background task; checking if subscription notifications need to be send out..
+2016-03-14 15:09:22,274 INFO [org.apache.juddi.subscription.SubscriptionNotifier] - Notification background task took 1 milliseconds.
+2016-03-14 15:09:22,414 INFO [org.apache.juddi.api.impl.AuthenticatedService] - FindBusiness with tModel bag filtering is enabled: true loaded from file:/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2016-03-14 15:09:22,420 INFO [org.apache.juddi.api.impl.InquiryHelper] - FindBusiness by tModelBag is enabled! Loaded from file:/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
