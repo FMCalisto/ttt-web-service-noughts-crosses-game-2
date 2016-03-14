@@ -43,7 +43,7 @@ Set in the ```pom.xml file``` (beyond (s) dependent (s) unknown):
 - The location of the **UDDI** (```uddi.url```)
 
 - The service name to search (```ws.name```)
-- 
+
 
 ===================================================
 
