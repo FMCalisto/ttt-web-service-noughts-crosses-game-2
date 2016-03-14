@@ -252,3 +252,9 @@
 2016-03-14 15:26:17,247 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:146 Type:ChangeRecordNewData Key:uddi:juddi.apache.org:d7a54599-f550-4998-baec-5c20cb0e4369 Local id:146
 2016-03-14 15:26:17,271 INFO [org.apache.juddi.subscription.SubscriptionNotifier] - Start Notification background task; checking if subscription notifications need to be send out..
 2016-03-14 15:26:17,273 INFO [org.apache.juddi.subscription.SubscriptionNotifier] - Notification background task took 2 milliseconds.
+2016-03-14 15:29:04,984 INFO [org.apache.juddi.api.impl.AuthenticatedService] - FindBusiness with tModel bag filtering is enabled: true loaded from file:/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2016-03-14 15:29:05,031 INFO [org.apache.juddi.api.impl.InquiryHelper] - FindBusiness by tModelBag is enabled! Loaded from file:/Users/Francisco/GitHub/ttt-web-service-noughts-crosses-game-2/juddi-3.3.2_tomcat-7.0.64_9090/webapps/juddiv3/WEB-INF/classes/juddiv3.xml
+2016-03-14 15:29:12,250 INFO [org.apache.juddi.replication.ReplicationNotifier] - Replication, Notifying nodes of new change records. 1 queued
+2016-03-14 15:29:12,253 INFO [org.apache.juddi.replication.ReplicationNotifier] - CR saved locally, it was from uddi:juddi.apache.org:node1 USN:147 Type:ChangeRecordDelete Key:uddi:juddi.apache.org:d7a54599-f550-4998-baec-5c20cb0e4369 Local id:147
+2016-03-14 15:29:12,276 INFO [org.apache.juddi.subscription.SubscriptionNotifier] - Start Notification background task; checking if subscription notifications need to be send out..
+2016-03-14 15:29:12,282 INFO [org.apache.juddi.subscription.SubscriptionNotifier] - Notification background task took 7 milliseconds.
