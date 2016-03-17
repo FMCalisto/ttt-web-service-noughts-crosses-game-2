@@ -45,7 +45,9 @@ public class Game {
 
 		// Start game
 		Game g = new Game(port);
+
 		g.playGame();
+
 		g.congratulate();
 	}
 
@@ -53,6 +55,7 @@ public class Game {
 	private Scanner keyboardSc;
 	private int winner = 0;
 	private int player = 1;
+	private int[ ] superPlays = {1, 1};
 
 	public Game(TTT port) {
 		this.ttt = port;
@@ -67,7 +70,7 @@ public class Game {
 							+ "where you want to place your %c (or 0 to refresh the board): %n",
 					player, (player == 1) ? 'X' : 'O');
 			play = keyboardSc.nextInt();
-		} while (play > 9 || play < 0);
+		} while (play > 9 || play < -9);
 		return play;
 	}
 
@@ -81,7 +84,12 @@ public class Game {
 				System.out.println(ttt.currentBoard());
 				play = readPlay();
 				if (play != 0) {
-					playAccepted = ttt.play(--play / 3, play % 3, player);
+					if( play < 0){
+							play = superPlay(play);
+							playAccepted = ttt.superPlay(--play / 3, play % 3, player);
+					}else
+						playAccepted = ttt.play(--play / 3, play % 3, player);
+						
 					if (!playAccepted)
 						System.out.println("Invalid play! Try again.");
 				} else {
@@ -99,4 +107,16 @@ public class Game {
 			System.out.printf("\nCongratulations, player %d, YOU ARE THE WINNER!\n", winner);
 	}
 
+	public int superPlay(int play){
+		if(superPlays[player] > 0){
+			System.out.println("This is your SUPER PLAYYYYY!");
+			superPlays[player] = 0;
+			return -play;
+		}else{
+			System.out.println("YOU HAVE NO MORE SUPER PLAYSSSS");
+			return 0;
+		}
+	}
+
 }
+

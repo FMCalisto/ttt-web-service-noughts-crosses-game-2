@@ -25,6 +25,24 @@ public class TTTImpl implements TTT {
 			return false;
 		if (board[row][column] > '9')
 			return false;
+		
+		if (player != nextPlayer)
+			return false;
+
+		if (numPlays == 9)
+			return false;
+
+		board[row][column] = (player == 1) ? 'X'
+				: 'O'; /* Insert player symbol */
+		nextPlayer = (nextPlayer + 1) % 2;
+		numPlays++;
+		return true;
+	}
+
+	public boolean superPlay(int row, int column, int player) {
+		if (!(row >= 0 && row < 3 && column >= 0 && column < 3))
+			return false;
+
 		if (player != nextPlayer)
 			return false;
 
