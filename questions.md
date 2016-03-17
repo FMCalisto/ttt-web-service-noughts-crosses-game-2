@@ -23,3 +23,6 @@ The location of the service and how to use the various transport protocols.
 > (ignore the ObjectFactory.java and package-info.java files in your response)
 
 The function of the generated files is the stub between the server and the client, applied to functions defined in the TTT interface (contract) with remote invocations to class `TTTImpl` server.
+
+### Class Problem
+
