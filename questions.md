@@ -26,3 +26,6 @@ The function of the generated files is the stub between the server and the clien
 
 ### Class Problem
 
+Add the new remote operation `superPlay` that let the player occupy a position that already is occupied.
+
+The user indicates that you want to play your `superPlay` with a single negative number indicating the position (eg, `-5`).
